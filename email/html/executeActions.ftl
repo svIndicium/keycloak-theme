@@ -253,7 +253,8 @@
                                     >
                                         <div><font face="Roboto">De beheerder heeft je verzocht om het wachtwoord van je
                                                 Indicium account te wijzigen. Klik op de onderstaande knop om hem te
-                                                wijzigen. Deze link zal over ${linkExpirationFormatter(linkExpiration)} vervallen.</font></div>
+                                                wijzigen. Deze link zal over ${linkExpirationFormatter(linkExpiration)}
+                                                vervallen.</font></div>
                                     </div>
 
                                 </td>
@@ -269,8 +270,8 @@
                                             border="0" cellpadding="0" cellspacing="0" role="presentation"
                                             style="border-collapse:separate;line-height:100%;"
                                     >
-                                        <a href="${link}">
-                                            <tr>
+                                        <tr>
+                                            <a href="${link}">
                                                 <td
                                                         align="center" bgcolor="#414141" role="presentation"
                                                         style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#414141;"
@@ -282,9 +283,22 @@
                                                         Wijzig wachtwoord
                                                     </p>
                                                 </td>
-                                            </tr>
-                                        </a>
+                                            </a>
+                                        </tr>
                                     </table>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td
+                                        align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+
+                                    <div
+                                            style="font-family:Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"
+                                    ><font face="Roboto">Als de knop niet werkt klik dan <a href="${link}">hier</a>.</font>
+                                    </div>
 
                                 </td>
                             </tr>
