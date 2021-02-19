@@ -1,4 +1,8 @@
 <#ftl output_format="plainText">
-<#assign requiredActionsText><#if requiredActions??><#list requiredActions><#items as reqActionItem>${msg("requiredAction.${reqActionItem}")}<#sep>, </#items></#list><#else></#if></#assign>
+Update je wachtwoord
 
-${msg("executeActionsBody",link, linkExpiration, realmName, requiredActionsText, linkExpirationFormatter(linkExpiration))}
+De beheerder heeft je verzocht om het wachtwoord van je Indicium account te wijzigen. Klik op de onderstaande link om hem te wijzigen. Deze link zal over ${linkExpirationFormatter(linkExpiration)} vervallen.
+
+${link}
+
+Mocht je nog vragen hebben kan je die stellen aan desecretaris. Dit kan via secretaris@indicium.hu of via +31645592066.
